@@ -616,7 +616,7 @@ p {
     .contenido-multimedia {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 4rem;
+        column-gap: 6rem;
         justify-content: center;
     }
 }
@@ -692,9 +692,9 @@ p {
 /** PATROCINADORES **/
 
 .patrocinador img {
-    width: 80%;
+    width: 65%;
     max-width: 30rem;
-    margin: 5rem auto;
+    margin: 6rem auto;
 }
 @media (min-width: 768px) {
     .contenido-patrocinadores {
