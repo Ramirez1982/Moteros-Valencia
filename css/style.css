@@ -553,7 +553,8 @@ p {
 @media (min-width: 998px) {
     .informacion-grupo {
         grid-template-columns: repeat(2, 1fr);
-        gap: 4rem;
+        column-gap: 5rem;
+        row-gap: 2rem;
         margin-top: 10rem;
     }
 
@@ -619,7 +620,7 @@ p {
     .contenido-multimedia {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 4rem;
+        column-gap: 5rem;
         justify-content: center;
     }
 }
