@@ -347,7 +347,7 @@ p {
 }
 
 .titulo h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin: 0 0 3rem 0;
 }
@@ -369,7 +369,7 @@ p {
 .redes-sociales span {
     display: block;
     color: var(--rojo);
-    font-size: 4rem;
+    font-size: 3.3rem;
 }
 
 @media (min-width: 998px) {
@@ -381,8 +381,8 @@ p {
 .redes-grid {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    align-items: center;
-    gap: 1rem;
+    align-items: center; 
+    margin: 0 2rem;   
 }
 
 @media (min-width: 768px) {
@@ -396,8 +396,7 @@ p {
 .icono {
     display: flex;
     justify-content: center;
-    font-size: 5.5rem;
-    border-radius: .5rem;
+    font-size: 6rem;
 }
 
 @media (min-width: 998px) {
@@ -477,7 +476,7 @@ p {
 
 .entrada h3 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0;
 }
 
@@ -565,6 +564,10 @@ p {
         margin-top: 1rem;
     }
 
+    .entrada h3 {
+        font-size: 3rem;
+    }
+
     .entrada:nth-child(4) {
         padding-bottom: 0;
     }
@@ -616,7 +619,7 @@ p {
     .contenido-multimedia {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 6rem;
+        column-gap: 4rem;
         justify-content: center;
     }
 }
@@ -629,7 +632,7 @@ p {
 
 .titulo-presentacion,
 .titulo-patrocinadores {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     margin: 0 0 3rem 0;
 }
@@ -648,7 +651,7 @@ p {
 .contenido-multimedia span {
     display: block;
     color: var(--rojo);
-    font-size: 4rem;
+    font-size: 3.2rem;
 }
 
 @media (min-width: 998px) {
@@ -657,10 +660,12 @@ p {
     }
 
     .contenido-multimedia h3 {
+        color: var(--blanco);
         text-align: center;
-        border-bottom: 1px solid var(--gris);
-        padding-bottom: 2rem;
-    }
+        padding: 1rem;
+        background-color: var(--gris);
+        border-radius: .5rem;
+}
 
 }
 
@@ -692,9 +697,9 @@ p {
 /** PATROCINADORES **/
 
 .patrocinador img {
-    width: 65%;
-    max-width: 30rem;
-    margin: 6rem auto;
+    width: 60%;
+    max-width: 25rem;
+    margin: 4rem auto;
 }
 @media (min-width: 768px) {
     .contenido-patrocinadores {
